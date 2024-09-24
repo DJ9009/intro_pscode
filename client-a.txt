@@ -1,4 +1,43 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start the game
+show message: "Please choose a number between 1 and 10"
+The game picks a random number between 1 and 10
+game gives the player 3 chances to guess
+IF the player still has chances
+    Game asks the player "Enter your guess"
+    player inputs their guess
+    if the guess is correct:
+        Game tells player "Awesome, you guessed correctly"
+        game ends
+IF the guess is wrong
+    Game tells player "Incorrect, try again!"
+    decrease guess chances by 1
 
+IF the player has no guesses left
+    Game tells player "OOF! Bummer, the correct number was [random_number] better luck next time"
+    
+    Game Over
+
+
+
+start the game
+OUTPUT "Please choose a number between 1 and 10"
+the game picks a random number between 1 and 10
+the player gets 3 chances to guess the number
+
+    while the player still has chances:
+        OUTPUT "Please enter a number"
+        INPUT player_number
+        IF player_number is the same as the random number THEN:
+            OUTPUT "Awesome, you guessed correctly"
+            End the game
+        ELSE
+            OUTPUT "Incorrect, Try again!"
+            subtract number of chances by 1
+
+IF player runs out of chances THEN:
+    OUTPUT "OOF! Bummer, the correct number was [random_number] Better luck next time!"
+
+End the game

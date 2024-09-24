@@ -2,3 +2,23 @@
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
 
+start
+set package count to 2
+increase number each time by 2
+repeat until the package count reaches 50
+end when the package count exceeds 50
+
+
+
+start
+
+SET package_count to 2
+
+repeat
+    PRINT package_count
+    increase package_count by 2
+UNTIL package_count exceeds 50
+
+IF <= 50 stop
+
+end

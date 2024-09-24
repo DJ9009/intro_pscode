@@ -1,4 +1,31 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Start
+ask customer for current location and Destination
+repeat until customer reaches the destination
+    ask the customer which direction to go (north south east west)
+    increase by 1 in the direction of the customer's choise
+        if north move up
+        if south move down
+        if east move right
+        if west move left
+When desired destination is reached, tell them they have arrived
 
+
+
+
+
+set starting position (x, y)
+set target position (x_target, y_target)
+
+WHILE current position is not the target:
+    Ask the customer for a direction (north, south, east, west)
+    Move in the chosen direction:
+        IF north, decrease y by 1
+        IF south, increase y by 1
+        IF east, increase x by 1
+        IF west, decrease x by 1
+
+WHEN the current position MATCHES the target
+OUTPUT "Destination reached."
